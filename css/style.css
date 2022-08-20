@@ -1,0 +1,119 @@
+/*logo-nav*/
+.imgLogo{
+    border-radius: 80%;
+    width: 7em;
+}
+.contenedorNav{
+    background-color: #77bfa3;
+    padding: 15px 0 15px 0;
+}
+.container-fluid li{
+    font-size: 25px;
+}
+
+/*footer*/
+.footer{
+    background-color: #77bfa3;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer img{
+    width: 2em;
+    border-radius: 10%;
+    margin: 10px;
+}
+/* etiqueta main*/
+main{
+    background-color:#dde7c7ab;
+}
+/*index*/
+.inicio{
+    background-color: #98c9a3cc ;
+}
+.inicio h1{
+    font-size: 3em;
+}
+.inicio p{
+    font-size: 1.5em;
+}
+.seccion{
+    margin: 25px;
+}
+
+.seccion h5{
+    text-align: center;
+    font-size: 2em;
+}
+.subTitulos{
+    background-color:#bfd8bd ;
+}
+
+.imgBanner{
+height: 50em;
+}
+
+
+/*recetas*/
+.tituloTipos{
+    text-align: center;
+    font-size: 40px;
+    background-color: #bfd8bd;
+    padding: 45px 0 45px 0;
+}
+.tituloTipos a{
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.tarjetaRecetas{
+    margin: 35px;
+}
+
+/*productos ytips*/
+
+.seccionProductos{
+    padding: 25px 0 25px 0;
+}
+/*tips*/
+.tips{
+    margin: 15px;
+}
+.seccionTips{
+    justify-content: center;
+    padding: 25px 0 25px 0;
+}
+
+
+/*carrito*/
+
+.col{
+    margin: 10px 0 10px 0;
+    justify-content: center;
+}
+
+.table{
+    min-height: 70vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.table__productos{
+    display: flex;
+
+}
+.table__productos img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.table__cantidad input{
+    width: 20px;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid contenedorNav">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logos/logo.jpg" alt="imgLogo" class="img-fluid imgLogo ">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./tips.html">Tips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./carrito.html">Carrito</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--main-->
+  <main>
+    <!--banner-->
+    <img
+      src="https://images.unsplash.com/photo-1605286978633-2dec93ff88a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
+      class="d-block w-100 imgBanner" alt="banner">
+
+    <!--texto Principal-->
+
+    <div class="card text-bg-light mb-3" style="max-width: 100vw;">
+      <div class="card-body inicio">
+        <br>
+        <h1 class="card-title">Nuestros productos</h1>
+        <br>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum distinctio veritatis,
+          dolor molestiae, dolore non nulla corrupti magnam quis blanditiis consectetur. Facere labore itaque
+          voluptates. Fugit totam ratione similique eaque nulla magni nisi eius aliquam optio quae rerum quos, unde quam
+          labore odit magnam ad. Doloribus at, reiciendis pariatur cum ut cumque repellendus quisquam quas. Ad esse
+          asperiores fugiat, accusantium dolor sit, optio quisquam maiores fugit distinctio, praesentium sint non
+          laboriosam tenetur. Recusandae, laudantium magni?</p>
+      </div>
+    </div>
+
+    <!--<h1 class="fs-2">Nuestros productos</h1>-->
+
+    <!--productos-->
+
+    <section class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 seccionProductos">
+
+      <div class="col d-flex justify-content-center mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1589783361701-d5161a106415?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIxfHx2ZWN0b3JlcyUyMGRlJTIwcGFzdGVsZXJpYXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top" alt="roll">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Roll</h5>
+            <p class="card-text text-center">$3200</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-center-mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1564645218026-797631447574?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b3JlbyUyMHRvcnRhfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top" alt="tortaOreo">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Torta Oreo</h5>
+            <p class="card-text text-center">$2200</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-center-mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/fotos-premium/pastel-zanahoria-casero-vegano-nueces-sobre-fondo-claro_266870-10898.jpg?size=626&ext=jpg&uid=R76737196&ga=GA1.2.1777241331.1659376232"
+            class="card-img-top" alt="carrotCake">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Carrot Cake</h5>
+            <p class="card-text text-center">$3600</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-center-mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/foto-gratis/primer-plano-tarta-queso-gelatina-decorada-fresas-bayas_181624-39558.jpg?size=626&ext=jpg&uid=R76737196&ga=GA1.2.1777241331.1659376232"
+            class="card-img-top" alt="cheesecake">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Chessecake</h5>
+            <p class="card-text text-center">$4000</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-center-mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/fotos-premium/tarta-lima-fondo-lima_613961-246.jpg?size=626&ext=jpg&uid=R76737196&ga=GA1.2.1777241331.1659376232"
+            class="card-img-top" alt="KeyLima">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Key Lima Pie</h5>
+            <p class="card-text text-center">$3900</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-center-mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/foto-gratis/pastel-terciopelo-rojo-crema-batida-blanca-vaso-te_114579-3711.jpg?w=740&t=st=1661015547~exp=1661016147~hmac=ea597dc5dbe2b9655e8e92966fa1f8be6b19b9127e0553683e6140e6a3cfe16e"
+            class="card-img-top" alt="RedVelvet">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Red Velvet</h5>
+            <p class="card-text text-center">$2300</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-center-mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1621703032174-11ac4f2ef71e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRvcnRhJTIwY2FmZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top" alt="Coco">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Cafe</h5>
+            <p class="card-text text-center">$3250</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-center-mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://images.unsplash.com/photo-1628441762468-f98cd323be61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGlyYW1pc3V8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top" alt="Tiramisu">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Tiramisu</h5>
+            <p class="card-text text-center">$3200</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-center-mb-4">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/foto-gratis/dulces-panaderia-bellamente-decorados_23-2149367808.jpg?size=626&ext=jpg&uid=R76737196&ga=GA1.2.1777241331.1659376232"
+            class="card-img-top" alt="deFrutas">
+          <div class="card-body ">
+            <h5 class="card-title pt-2 text-center">Torta de Frutas</h5>
+            <p class="card-text text-center">$3200</p>
+            <div class="container d-flex">
+              <button class="btn btn-primary button">comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!--footer-->
+  <footer class="footer container-fluid p-3 mt-5 d-flex">
+    <div>
+      <a href="https://www.instagram.com/village_ar/">
+        <img src="../img/logos/logo-instagram.jpeg" alt="logoIg">
+      </a>
+      <a href="https://www.facebook.com/villageAR">
+        <img src="../img/logos/logo-facebook.jpeg" alt="logoFb">
+      </a>
+    </div>
+    <p class="text-center m-0 text-muted"> Village siempre te acompaña</p>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
