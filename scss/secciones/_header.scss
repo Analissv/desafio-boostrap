@@ -1,0 +1,26 @@
+header{
+    nav{
+        .contenedorNav{
+            background-color: #555b6e;
+            padding: 15px 0 15px 0;
+        
+        a{
+             .imgLogo{
+                    border-radius: 80%;
+                    width: 5em;
+                    margin: 5px;
+                } 
+            }
+        li{
+             a{
+                 font-size: 25px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: azure;
+                }
+            }
+        button{
+            margin: 10px;
+        }
+        }
+    }
+}

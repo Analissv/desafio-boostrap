@@ -1,0 +1,32 @@
+main{
+    background-color:#bee3db34;
+    div{
+        .inicio{
+            background-color: #faf9f9 ;
+            h1{
+                font-size: 3em;
+                padding: 15px 0 15px 0;
+            }
+            p{
+                font-size: 1.5em; 
+                padding: 15px 0 15px 0;
+            }
+        }
+    }
+
+    section{
+        padding: 10px;
+        div{
+            .subTitulos{
+                background-color: #89b0ae9a;
+            }
+            h5{
+                text-align: center;
+                font-size: 2em;
+                &:hover{
+                    color: #faf9f9;
+                }
+            }
+        }
+    }
+}

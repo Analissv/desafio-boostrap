@@ -1,119 +1,117 @@
-/*logo-nav*/
-.imgLogo{
-    border-radius: 80%;
-    width: 7em;
-}
-.contenedorNav{
-    background-color: #77bfa3;
-    padding: 15px 0 15px 0;
-}
-.container-fluid li{
-    font-size: 25px;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/*footer*/
-.footer{
-    background-color: #77bfa3;
+header nav .contenedorNav {
+  background-color: #555b6e;
+  padding: 15px 0 15px 0; }
+  header nav .contenedorNav a .imgLogo {
+    border-radius: 80%;
+    width: 5em;
+    margin: 5px; }
+  header nav .contenedorNav li a {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure; }
+  header nav .contenedorNav button {
+    margin: 10px; }
+
+main {
+  background-color: #bee3db34; }
+  main div .inicio {
+    background-color: #faf9f9; }
+    main div .inicio h1 {
+      font-size: 3em;
+      padding: 15px 0 15px 0; }
+    main div .inicio p {
+      font-size: 1.5em;
+      padding: 15px 0 15px 0; }
+  main section {
+    padding: 10px; }
+    main section div .subTitulos {
+      background-color: #89b0ae9a; }
+    main section div h5 {
+      text-align: center;
+      font-size: 2em; }
+      main section div h5:hover {
+        color: #faf9f9; }
+
+main .tituloTipos {
+  text-align: center;
+  font-size: 40px;
+  background-color: #faf9f9;
+  padding: 45px 0 45px 0; }
+  main .tituloTipos a {
+    color: rgba(0, 0, 0, 0.753);
+    text-decoration: none; }
+    main .tituloTipos a:hover {
+      font-size: 50px; }
+
+main section {
+  background-color: #bee3db34; }
+  main section .tarjetaRecetas {
+    margin: 35px; }
+    main section .tarjetaRecetas div {
+      background-color: #89b0ae5b; }
+
+main div .inicio {
+  background-color: #faf9f9; }
+
+main .seccionProductos {
+  background-color: #bee3db11;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  main .seccionProductos .itemProducto {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.footer img{
+    align-content: stretch;
+    margin: 25px 0 25px 0; }
+    main .seccionProductos .itemProducto .info {
+      background-color: #89b0ae9a; }
+      main .seccionProductos .itemProducto .info .btn {
+        background-color: #555b6e;
+        color: white; }
+
+main .principioTips {
+  background-color: #faf9f9;
+  padding: 15px 0 15px 0;
+  justify-content: center; }
+
+main .seccionTips {
+  justify-content: center;
+  padding: 10px; }
+  main .seccionTips .card {
+    padding: 10px; }
+    main .seccionTips .card div div .contCard {
+      background-color: #89b0ae9a; }
+
+main .table {
+  background-color: #bee3db34; }
+  main .table th {
+    color: #555b6e;
+    margin: 10px 0 10px 0;
+    font-size: 15px; }
+  main .table tbody .table__productos {
+    display: flex; }
+    main .table tbody .table__productos img {
+      width: 5rem;
+      object-fit: contain;
+      border-radius: 6px; }
+  main .table tbody .table__cantidad input {
+    width: 2em; }
+  main .table tbody .table__cantidad button {
+    width: 2em; }
+
+.footer {
+  background-color: #bee3db;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .footer img {
     width: 2em;
     border-radius: 10%;
-    margin: 10px;
-}
-/* etiqueta main*/
-main{
-    background-color:#dde7c7ab;
-}
-/*index*/
-.inicio{
-    background-color: #98c9a3cc ;
-}
-.inicio h1{
-    font-size: 3em;
-}
-.inicio p{
-    font-size: 1.5em;
-}
-.seccion{
-    margin: 25px;
-}
-
-.seccion h5{
-    text-align: center;
-    font-size: 2em;
-}
-.subTitulos{
-    background-color:#bfd8bd ;
-}
-
-.imgBanner{
-height: 50em;
-}
-
-
-/*recetas*/
-.tituloTipos{
-    text-align: center;
-    font-size: 40px;
-    background-color: #bfd8bd;
-    padding: 45px 0 45px 0;
-}
-.tituloTipos a{
-    color: rgba(0, 0, 0, 0.753);
-}
-
-.tarjetaRecetas{
-    margin: 35px;
-}
-
-/*productos ytips*/
-
-.seccionProductos{
-    padding: 25px 0 25px 0;
-}
-/*tips*/
-.tips{
-    margin: 15px;
-}
-.seccionTips{
-    justify-content: center;
-    padding: 25px 0 25px 0;
-}
-
-
-/*carrito*/
-
-.col{
-    margin: 10px 0 10px 0;
-    justify-content: center;
-}
-
-.table{
-    min-height: 70vh;
-    max-width: 1000px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.table__productos{
-    display: flex;
-
-}
-.table__productos img{
-    width: 9rem;
-    object-fit: contain;
-    border-radius: 6px;
-    margin-right: 20px;
-}
-.table__cantidad input{
-    width: 20px;
-    border: none;
-    outline: 0;
-    font-size: 15px;
-    font-weight: 700;
-    margin-right: 30px;
-    margin-bottom: 20px;
-}
+    margin: 10px; }

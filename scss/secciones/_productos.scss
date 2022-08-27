@@ -1,0 +1,29 @@
+main{
+    div{
+        .inicio{
+            background-color: #faf9f9;
+        }
+    }
+    .seccionProductos{
+        background-color: #bee3db11;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+       
+        .itemProducto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: stretch;
+        margin: 25px 0 25px 0;
+        .info{
+            background-color: #89b0ae9a;
+            .btn{
+                background-color: #555b6e;
+                color: white;
+            }
+        }
+        }
+    }
+}

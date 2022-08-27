@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./secciones/header";
+@import "./secciones/index";
+@import "./secciones/recetas";
+@import "./secciones/productos";
+@import "./secciones/tips";
+@import "./secciones/carrito";
+@import "./secciones/footer";
+
+

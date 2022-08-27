@@ -1,0 +1,29 @@
+main{
+    .table{
+        background-color: #bee3db34;
+        th{
+            color:#555b6e ;
+            margin: 10px 0 10px 0;
+            font-size: 15px;
+        }
+        tbody{
+            .table__productos{
+                display: flex;
+                img{
+                    width: 5rem;
+                    object-fit: contain;
+                    border-radius: 6px;
+                }
+            }
+            .table__cantidad{
+                input{
+                    width: 2em;
+                }
+                button{
+                    width: 2em;
+                }
+             }
+            
+        }
+    }
+}
